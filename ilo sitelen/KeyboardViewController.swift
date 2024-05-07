@@ -91,7 +91,7 @@ class KeyboardViewController: UIInputViewController {
             let keyboardFrame = view.convert(rawFrame, from: nil)
             let heightKeyboard = keyboardFrame.size.height
         
-            //heightConstraint.constant = heightKeyboard
+            heightConstraint.constant = heightKeyboard
             stackView.layoutIfNeeded()
         }
     }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19115.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19107.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -32,7 +32,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sPO-Oy-Ir0">
-                    <rect key="frame" x="4" y="53" width="312" height="246"/>
+                    <rect key="frame" x="4" y="19" width="312" height="246"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9oY-ms-CxO">
                             <rect key="frame" x="0.0" y="0.0" width="312" height="55.5"/>
@@ -498,7 +498,7 @@
                     </constraints>
                 </stackView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spH-cg-zmB" userLabel="PreviewLabel">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                    <rect key="frame" x="0.0" y="-34" width="320" height="45"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="45" id="XRF-9u-nuh"/>
                     </constraints>
@@ -514,7 +514,7 @@
                 <constraint firstItem="sPO-Oy-Ir0" firstAttribute="leading" secondItem="pKn-bC-llz" secondAttribute="leading" constant="4" id="nLM-GD-7H5"/>
                 <constraint firstItem="spH-cg-zmB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qH9-hy-Nm6"/>
                 <constraint firstItem="spH-cg-zmB" firstAttribute="bottom" secondItem="sPO-Oy-Ir0" secondAttribute="top" constant="-8" id="we2-77-ozk"/>
-                <constraint firstItem="spH-cg-zmB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ws1-TJ-pNB"/>
+                <constraint firstItem="spH-cg-zmB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" priority="999" id="ws1-TJ-pNB"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="-113.04347826086958" y="24.441964285714285"/>
@@ -561,7 +561,7 @@
             <size key="intrinsicContentSize" width="15" height="22"/>
         </designable>
         <designable name="cif-2F-Qwv">
-            <size key="intrinsicContentSize" width="30" height="34"/>
+            <size key="intrinsicContentSize" width="30" height="38"/>
         </designable>
         <designable name="dlQ-sQ-Rt1">
             <size key="intrinsicContentSize" width="7" height="22"/>
@@ -591,10 +591,10 @@
         <image name="cl_br" width="5" height="12"/>
         <image name="colon" width="4" height="11"/>
         <image name="comma" width="5" height="6"/>
-        <image name="delete.left" catalog="system" width="128" height="104"/>
+        <image name="delete.left" catalog="system" width="128" height="102"/>
         <image name="dot" width="5" height="6"/>
         <image name="down" width="15" height="8"/>
-        <image name="globe" catalog="system" width="128" height="121"/>
+        <image name="globe" catalog="system" width="128" height="123"/>
         <image name="hor" width="15" height="2"/>
         <image name="ike" width="14" height="8"/>
         <image name="la" width="8" height="14"/>
@@ -602,7 +602,7 @@
         <image name="op_br" width="5" height="12"/>
         <image name="poki" width="11" height="9"/>
         <image name="pona" width="14" height="8"/>
-        <image name="return" catalog="system" width="128" height="101"/>
+        <image name="return" catalog="system" width="128" height="102"/>
         <image name="sound" width="15" height="7"/>
         <image name="up" width="16" height="14"/>
         <image name="vert" width="2" height="15"/>
@@ -616,7 +616,7 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray3Color">
-            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
