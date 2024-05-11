@@ -422,7 +422,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 7.3.2.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tbodt.nasin-Wakalito-UCSUR";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbodt.nasin-Wakalito";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -447,7 +447,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 7.3.2.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tbodt.nasin-Wakalito-UCSUR";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbodt.nasin-Wakalito";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -467,7 +467,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tbodt.nasin-Wakalito-UCSUR.ilo-sitelen";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbodt.nasin-Wakalito.ilo-sitelen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -488,7 +488,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tbodt.nasin-Wakalito-UCSUR.ilo-sitelen";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbodt.nasin-Wakalito.ilo-sitelen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
